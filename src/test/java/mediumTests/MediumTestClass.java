@@ -14,7 +14,7 @@ public class MediumTestClass {
 
 
   @Test
-  public void testReturnEvenOrOdd() {
+  public void testEvenOrOdd() {
     boolean actualResult = calc.everOrOdd(3);
     assertEquals("true if number is even and false if number is Odd", false, actualResult);
   }
