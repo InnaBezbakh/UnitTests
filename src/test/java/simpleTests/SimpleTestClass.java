@@ -36,7 +36,7 @@ public class SimpleTestClass {
     }
 
     @Test
-    public void testRootTwoPositiveValues() {
+    public void testRootTwoPositive() {
         int actualResult = calc.stepin(2);
         assertEquals("stepin", 4, actualResult, 4);
     }
